@@ -1,3 +1,18 @@
+#--------------------------- custom .ignore
+# файлы с настройками, в гит не добавляем
+config*.json
+# jetbrains IDE files
+.idea/
+
+# venv/
+# /build/
+# /outline_vpn_api.egg-info/
+# /dist/
+# /.pytest_cache/
+# /outline-install.log
+
+
+#--------------------------- github python .ignore
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
